@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body id="utama" class="utama">
+  <h1 class="judul center"><strong>Hello World!</strong></h1>
+  <p id="teks"></p>
+  <div class="center">
+    <button id="tombol" onclick="peringati()" class="tombol"><strong>Klik Saya</strong></button>
+  </div>
+  <script>
+    function peringati() {
+      alert("Tombol ini telah dihack!!!");
+    }
+  </script>
+  <br>
+  <div class="center">
+    <audio src="Otan.mp3" type="audio/mp3" controls>Tidak dapat memuat audio.</audio>
+  </div>
+  <br>
+  <div class="center">
+    <audio src="BloodPop.mp3" type="audio/mp3" controls>Tidak dapat memuat audio.</audio>
+  </div>
+  <br>
+  <div class="center">
+    <audio src="Sahur.mp3" type="audio/mp3" controls>Tidak dapat memuat audio.</audio>
+  </div>
+  <video width="325" height="450" style="position: absolute; top: 250px" controls>
+    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+    Gagal memuat vidio.
+  </video>
+</body>
+</html>
